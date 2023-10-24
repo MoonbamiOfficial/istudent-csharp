@@ -22,7 +22,7 @@ namespace app
             string lastName = lastNameTextBox.Text;
             string middleName = middleNameTextBox.Text;
 
-            displayStudentOne.Text = firstName + " " + middleName + " " + lastName;
+            displayStudentOne.Text = lastName + ", " + firstName + " " + middleName;
         }
         // add student btn end //
 

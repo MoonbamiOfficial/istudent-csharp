@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.displayStudentOne = new System.Windows.Forms.Label();
             this.sideNavHeader = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -49,6 +48,7 @@
             this.middleNameLabel = new System.Windows.Forms.Label();
             this.firstNameLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.displayStudentOne = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -65,17 +65,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 682);
             this.panel1.TabIndex = 0;
-            // 
-            // displayStudentOne
-            // 
-            this.displayStudentOne.AutoSize = true;
-            this.displayStudentOne.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayStudentOne.ForeColor = System.Drawing.Color.White;
-            this.displayStudentOne.Location = new System.Drawing.Point(29, 119);
-            this.displayStudentOne.Name = "displayStudentOne";
-            this.displayStudentOne.Size = new System.Drawing.Size(12, 28);
-            this.displayStudentOne.TabIndex = 4;
-            this.displayStudentOne.Text = "\r\n";
             // 
             // sideNavHeader
             // 
@@ -185,7 +174,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(254, 27);
             this.dateTimePicker1.TabIndex = 29;
-            this.dateTimePicker1.Value = new System.DateTime(2023, 10, 25, 23, 59, 59, 0);
+            this.dateTimePicker1.Value = new System.DateTime(2023, 10, 24, 0, 0, 0, 0);
             // 
             // emailTextBox
             // 
@@ -324,6 +313,17 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "ENTER STUDENT DETAILS";
             // 
+            // displayStudentOne
+            // 
+            this.displayStudentOne.AutoSize = true;
+            this.displayStudentOne.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayStudentOne.ForeColor = System.Drawing.Color.White;
+            this.displayStudentOne.Location = new System.Drawing.Point(17, 101);
+            this.displayStudentOne.Name = "displayStudentOne";
+            this.displayStudentOne.Size = new System.Drawing.Size(70, 37);
+            this.displayStudentOne.TabIndex = 3;
+            this.displayStudentOne.Text = "label";
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 23F);
@@ -362,7 +362,6 @@
         private System.Windows.Forms.Label sexLabel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button addStudentBtn;
-        private System.Windows.Forms.Label displayStudentOne;
         private System.Windows.Forms.ComboBox sexComboBox;
         private System.Windows.Forms.TextBox ageTextBox;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
@@ -371,6 +370,7 @@
         private System.Windows.Forms.TextBox lastNameTextBox;
         private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label displayStudentOne;
     }
 }
 
