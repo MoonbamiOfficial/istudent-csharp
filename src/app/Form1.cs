@@ -21,6 +21,9 @@ namespace app
             string firstName = firstNameTextBox.Text;
             string lastName = lastNameTextBox.Text;
             string middleName = middleNameTextBox.Text;
+            string email = emailTextBox.Text;
+            string age = ageTextBox.Text;
+            string sex = sexComboBox.Text;
 
             displayStudentOne.Text = lastName + ", " + firstName + " " + middleName;
         }
