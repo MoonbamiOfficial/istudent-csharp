@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.displayStudentOne = new System.Windows.Forms.Label();
             this.sideNavHeader = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -48,7 +49,6 @@
             this.middleNameLabel = new System.Windows.Forms.Label();
             this.firstNameLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.displayStudentOne = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -65,6 +65,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 682);
             this.panel1.TabIndex = 0;
+            // 
+            // displayStudentOne
+            // 
+            this.displayStudentOne.AutoSize = true;
+            this.displayStudentOne.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayStudentOne.ForeColor = System.Drawing.Color.White;
+            this.displayStudentOne.Location = new System.Drawing.Point(17, 101);
+            this.displayStudentOne.Name = "displayStudentOne";
+            this.displayStudentOne.Size = new System.Drawing.Size(70, 37);
+            this.displayStudentOne.TabIndex = 3;
+            this.displayStudentOne.Text = "label";
             // 
             // sideNavHeader
             // 
@@ -215,13 +226,22 @@
             // addStudentBtn
             // 
             this.addStudentBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.addStudentBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(13)))), ((int)(((byte)(18)))));
+            this.addStudentBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.addStudentBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.addStudentBtn.FlatAppearance.BorderSize = 0;
+            this.addStudentBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addStudentBtn.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addStudentBtn.ForeColor = System.Drawing.Color.White;
             this.addStudentBtn.Location = new System.Drawing.Point(528, 440);
             this.addStudentBtn.Name = "addStudentBtn";
             this.addStudentBtn.Size = new System.Drawing.Size(150, 60);
             this.addStudentBtn.TabIndex = 24;
             this.addStudentBtn.Text = "+ ADD STUDENT";
-            this.addStudentBtn.UseVisualStyleBackColor = true;
+            this.addStudentBtn.UseVisualStyleBackColor = false;
             this.addStudentBtn.Click += new System.EventHandler(this.addStudentBtn_Click);
+            this.addStudentBtn.MouseLeave += new System.EventHandler(this.addStudentBtn_MouseLeave);
+            this.addStudentBtn.MouseHover += new System.EventHandler(this.addStudentBtn_MouseHover);
             // 
             // sexLabel
             // 
@@ -312,17 +332,6 @@
             this.label1.Size = new System.Drawing.Size(242, 36);
             this.label1.TabIndex = 15;
             this.label1.Text = "ENTER STUDENT DETAILS";
-            // 
-            // displayStudentOne
-            // 
-            this.displayStudentOne.AutoSize = true;
-            this.displayStudentOne.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayStudentOne.ForeColor = System.Drawing.Color.White;
-            this.displayStudentOne.Location = new System.Drawing.Point(17, 101);
-            this.displayStudentOne.Name = "displayStudentOne";
-            this.displayStudentOne.Size = new System.Drawing.Size(70, 37);
-            this.displayStudentOne.TabIndex = 3;
-            this.displayStudentOne.Text = "label";
             // 
             // dashboard
             // 
