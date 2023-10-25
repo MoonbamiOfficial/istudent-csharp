@@ -39,10 +39,8 @@ namespace HICLabActivityOne
             this.Hide();
             string firstName = dashboard.instance.fn.Text;
             string lastName = dashboard.instance.ln.Text;
-            string email = dashboard.instance.email.Text;
 
             dashboard.instance.sideNavNameDisplayHolder.Text = lastName + ", " + firstName;
-            dashboard.instance.sideNavDisplayEmail.Text = email;
         }
     }
 }

@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             this.panel1 = new System.Windows.Forms.Panel();
             this.displayStudentName = new System.Windows.Forms.Label();
-            this.displayStudentEmail = new System.Windows.Forms.Label();
             this.sideNavHeader = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -63,7 +62,6 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.displayStudentName);
-            this.panel1.Controls.Add(this.displayStudentEmail);
             this.panel1.Controls.Add(this.sideNavHeader);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -79,16 +77,6 @@
             this.displayStudentName.Name = "displayStudentName";
             this.displayStudentName.Size = new System.Drawing.Size(200, 88);
             this.displayStudentName.TabIndex = 3;
-            // 
-            // displayStudentEmail
-            // 
-            this.displayStudentEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.displayStudentEmail.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayStudentEmail.ForeColor = System.Drawing.Color.White;
-            this.displayStudentEmail.Location = new System.Drawing.Point(24, 242);
-            this.displayStudentEmail.Name = "displayStudentEmail";
-            this.displayStudentEmail.Size = new System.Drawing.Size(200, 59);
-            this.displayStudentEmail.TabIndex = 4;
             // 
             // sideNavHeader
             // 
@@ -123,13 +111,13 @@
             this.panel4.Controls.Add(this.datePick);
             this.panel4.Controls.Add(this.ageNumericBox);
             this.panel4.Controls.Add(this.sexComboBox);
-            this.panel4.Controls.Add(this.addStudentBtn);
             this.panel4.Controls.Add(this.sexLabel);
             this.panel4.Controls.Add(this.ageLabel);
             this.panel4.Controls.Add(this.birthLabel);
             this.panel4.Controls.Add(this.emailLabel);
             this.panel4.Controls.Add(this.lastNameLabel);
             this.panel4.Controls.Add(this.firstNameLabel);
+            this.panel4.Controls.Add(this.addStudentBtn);
             this.panel4.Location = new System.Drawing.Point(300, 110);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(722, 539);
@@ -381,7 +369,6 @@
         private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Label lastNameLabel;
         private System.Windows.Forms.Label displayStudentName;
-        private System.Windows.Forms.Label displayStudentEmail;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.NumericUpDown ageNumericBox;
     }

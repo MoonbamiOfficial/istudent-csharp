@@ -21,7 +21,6 @@ namespace app
             sideNavNameDisplayHolder = displayStudentName;
             fn = firstNameTextBox;
             ln = lastNameTextBox;
-            sideNavDisplayEmail = displayStudentEmail;
             email = emailTextBox;
         }
 
