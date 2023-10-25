@@ -36,7 +36,7 @@ namespace app
             string lastName = lastNameTextBox.Text;
             string email = emailTextBox.Text;
             string birth = datePick.Value.ToString();
-            string age = ageTextBox.Text;
+            string age = ageNumericBox.Value.ToString();
             string sex = sexComboBox.Text;
 
             AddStudentMessage message = new AddStudentMessage();
@@ -99,22 +99,6 @@ namespace app
             {
                 emailTextBox.Text = "Email";
                 emailTextBox.ForeColor = Color.LightGray;
-            }
-        }
-        private void ageTextBox_Enter(object sender, EventArgs e)
-        {
-            if (ageTextBox.Text == "00")
-            {
-                ageTextBox.Text = "";
-                ageTextBox.ForeColor = Color.Black;
-            }
-        }
-        private void ageTextBox_Leave(object sender, EventArgs e)
-        {
-            if (ageTextBox.Text == "")
-            {
-                ageTextBox.Text = "00";
-                ageTextBox.ForeColor = Color.LightGray;
             }
         }
         private void sexComboBox_Enter(object sender, EventArgs e)

@@ -38,7 +38,6 @@
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.datePick = new System.Windows.Forms.DateTimePicker();
-            this.ageTextBox = new System.Windows.Forms.TextBox();
             this.sexComboBox = new System.Windows.Forms.ComboBox();
             this.addStudentBtn = new System.Windows.Forms.Button();
             this.sexLabel = new System.Windows.Forms.Label();
@@ -49,8 +48,10 @@
             this.firstNameLabel = new System.Windows.Forms.Label();
             this.header = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.ageNumericBox = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ageNumericBox)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -87,7 +88,6 @@
             this.displayStudentEmail.Name = "displayStudentEmail";
             this.displayStudentEmail.Size = new System.Drawing.Size(200, 59);
             this.displayStudentEmail.TabIndex = 4;
-            this.displayStudentEmail.Text = "moonbamijamofficial15@gmail.com";
             // 
             // sideNavHeader
             // 
@@ -120,7 +120,7 @@
             this.panel4.Controls.Add(this.lastNameTextBox);
             this.panel4.Controls.Add(this.emailTextBox);
             this.panel4.Controls.Add(this.datePick);
-            this.panel4.Controls.Add(this.ageTextBox);
+            this.panel4.Controls.Add(this.ageNumericBox);
             this.panel4.Controls.Add(this.sexComboBox);
             this.panel4.Controls.Add(this.addStudentBtn);
             this.panel4.Controls.Add(this.sexLabel);
@@ -178,18 +178,6 @@
             this.datePick.Size = new System.Drawing.Size(254, 27);
             this.datePick.TabIndex = 29;
             this.datePick.Value = new System.DateTime(2023, 10, 24, 0, 0, 0, 0);
-            // 
-            // ageTextBox
-            // 
-            this.ageTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ageTextBox.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ageTextBox.Location = new System.Drawing.Point(274, 164);
-            this.ageTextBox.Name = "ageTextBox";
-            this.ageTextBox.Size = new System.Drawing.Size(100, 27);
-            this.ageTextBox.TabIndex = 30;
-            this.ageTextBox.Text = "00";
-            this.ageTextBox.Enter += new System.EventHandler(this.ageTextBox_Enter);
-            this.ageTextBox.Leave += new System.EventHandler(this.ageTextBox_Leave);
             // 
             // sexComboBox
             // 
@@ -250,7 +238,7 @@
             this.ageLabel.ForeColor = System.Drawing.Color.White;
             this.ageLabel.Location = new System.Drawing.Point(274, 136);
             this.ageLabel.Name = "ageLabel";
-            this.ageLabel.Size = new System.Drawing.Size(100, 25);
+            this.ageLabel.Size = new System.Drawing.Size(50, 25);
             this.ageLabel.TabIndex = 16;
             this.ageLabel.Text = "Age";
             // 
@@ -324,6 +312,14 @@
             this.panel3.Size = new System.Drawing.Size(200, 10);
             this.panel3.TabIndex = 2;
             // 
+            // ageNumericBox
+            // 
+            this.ageNumericBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ageNumericBox.Location = new System.Drawing.Point(274, 165);
+            this.ageNumericBox.Name = "ageNumericBox";
+            this.ageNumericBox.Size = new System.Drawing.Size(50, 27);
+            this.ageNumericBox.TabIndex = 34;
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 23F);
@@ -343,6 +339,7 @@
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ageNumericBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,9 +365,9 @@
         private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Label lastNameLabel;
         private System.Windows.Forms.Label displayStudentName;
-        private System.Windows.Forms.TextBox ageTextBox;
         private System.Windows.Forms.Label displayStudentEmail;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.NumericUpDown ageNumericBox;
     }
 }
 
