@@ -39,7 +39,8 @@ namespace app
             AddStudentMessage.instance.studentAgeHolder.Text = age;
             AddStudentMessage.instance.studentSexHolder.Text = sex;
 
-            displayStudentOne.Text = lastName + ", " + firstName + " ";
+            displayStudentName.Text = lastName + ", " + firstName;
+            displayStudentEmail.Text = email;
         }
         // add student btn end //
 
@@ -74,22 +75,6 @@ namespace app
             {
                 lastNameTextBox.Text = "Last Name";
                 lastNameTextBox.ForeColor = Color.LightGray;
-            }
-        }
-        private void middleNameTextBox_Enter(object sender, EventArgs e)
-        {
-            if (middleNameTextBox.Text == "Middle Name (Optional)")
-            {
-                middleNameTextBox.Text = "";
-                middleNameTextBox.ForeColor = Color.Black;
-            }
-        }
-        private void middleNameTextBox_Leave(object sender, EventArgs e)
-        {
-            if (middleNameTextBox.Text == "")
-            {
-                middleNameTextBox.Text = "Middle Name (Optional)";
-                middleNameTextBox.ForeColor = Color.LightGray;
             }
         }
         private void emailTextBox_Enter(object sender, EventArgs e)
