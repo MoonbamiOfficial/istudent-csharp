@@ -10,7 +10,7 @@ git clone https://github.com/MoonbamiOfficial/istudent-csharp.git
 
 ---
 
-> ### [!IMPORTANT]
+### Must Have
 * Visual Studio 2022 (or higher) 
 
 ---
@@ -25,6 +25,7 @@ git clone https://github.com/MoonbamiOfficial/istudent-csharp.git
 
 ---
 
-About iStudent[^note]
+### About iStudent[^note]
 
-[^note]: This is a lab activity #1 in my course named **ITEC 80:** **_Human Computer Interaction_**.
+[^note]: iStudent is a 100% front-end and **C#** learning project. This is a lab activity #1 in my course named **ITEC 80:** **_Human Computer Interaction_**.
+
