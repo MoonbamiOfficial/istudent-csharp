@@ -173,11 +173,15 @@
             // datePick
             // 
             this.datePick.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.datePick.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.datePick.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.datePick.Location = new System.Drawing.Point(274, 80);
+            this.datePick.Margin = new System.Windows.Forms.Padding(4);
             this.datePick.Name = "datePick";
             this.datePick.Size = new System.Drawing.Size(254, 27);
             this.datePick.TabIndex = 29;
             this.datePick.Value = new System.DateTime(2023, 10, 24, 0, 0, 0, 0);
+            this.datePick.ValueChanged += new System.EventHandler(this.datePick_ValueChanged);
             // 
             // sexComboBox
             // 
@@ -316,9 +320,19 @@
             // 
             this.ageNumericBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ageNumericBox.Location = new System.Drawing.Point(274, 165);
+            this.ageNumericBox.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.ageNumericBox.Name = "ageNumericBox";
             this.ageNumericBox.Size = new System.Drawing.Size(50, 27);
             this.ageNumericBox.TabIndex = 34;
+            this.ageNumericBox.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // dashboard
             // 
