@@ -24,7 +24,6 @@ namespace app
         {
             string firstName = firstNameTextBox.Text;
             string lastName = lastNameTextBox.Text;
-            string middleName = middleNameTextBox.Text;
             string email = emailTextBox.Text;
             string birth = datePick.Value.ToString();
             string age = ageTextBox.Text;
@@ -35,13 +34,12 @@ namespace app
 
             AddStudentMessage.instance.studentFirstNameHolder.Text = firstName;
             AddStudentMessage.instance.studentLastNameHolder.Text = lastName;
-            AddStudentMessage.instance.studentMiddleNameHolder.Text = middleName;
             AddStudentMessage.instance.studentEmailHolder.Text = email;
             AddStudentMessage.instance.studentBirthHolder.Text = birth;
             AddStudentMessage.instance.studentAgeHolder.Text = age;
             AddStudentMessage.instance.studentSexHolder.Text = sex;
 
-            displayStudentOne.Text = lastName + ", " + firstName + " " + middleName;
+            displayStudentOne.Text = lastName + ", " + firstName + " ";
         }
         // add student btn end //
 

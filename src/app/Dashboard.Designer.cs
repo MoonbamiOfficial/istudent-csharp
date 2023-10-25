@@ -71,9 +71,8 @@
             this.displayStudentOne.ForeColor = System.Drawing.Color.White;
             this.displayStudentOne.Location = new System.Drawing.Point(17, 101);
             this.displayStudentOne.Name = "displayStudentOne";
-            this.displayStudentOne.Size = new System.Drawing.Size(44, 23);
+            this.displayStudentOne.Size = new System.Drawing.Size(0, 23);
             this.displayStudentOne.TabIndex = 3;
-            this.displayStudentOne.Text = "label";
             // 
             // sideNavHeader
             // 
