@@ -1,6 +1,6 @@
 # iStudent
 A simple application interface that will effectively add student data using **C#**
-
+> #### About[^note]
 ---
 
 ### Setup iStudent
@@ -25,7 +25,7 @@ git clone https://github.com/MoonbamiOfficial/istudent-csharp.git
 
 ---
 
-### About iStudent[^note]
+
 
 [^note]: iStudent is a 100% front-end and **C#** learning project. This is a lab activity #1 in my course named **ITEC 80:** **_Human Computer Interaction_**.
 
