@@ -8,11 +8,21 @@ namespace app
     public partial class dashboard : Form
     {
         public static dashboard instance;
+        public Label sideNavNameDisplayHolder;
+        public TextBox fn;
+        public TextBox ln;
+        public Label sideNavDisplayEmail;
+        public TextBox email;
 
         public dashboard()
         {
             InitializeComponent();
             instance = this;
+            sideNavNameDisplayHolder = displayStudentName;
+            fn = firstNameTextBox;
+            ln = lastNameTextBox;
+            sideNavDisplayEmail = displayStudentEmail;
+            email = emailTextBox;
         }
 
         private void iStudent_Load(object sender, EventArgs e)
@@ -39,8 +49,6 @@ namespace app
             AddStudentMessage.instance.studentAgeHolder.Text = age;
             AddStudentMessage.instance.studentSexHolder.Text = sex;
 
-            displayStudentName.Text = lastName + ", " + firstName;
-            displayStudentEmail.Text = email;
         }
         // add student btn end //
 

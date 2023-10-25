@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace HICLabActivityOne
 {
@@ -36,6 +37,12 @@ namespace HICLabActivityOne
         private void confirmBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
+            string firstName = dashboard.instance.fn.Text;
+            string lastName = dashboard.instance.ln.Text;
+            string email = dashboard.instance.email.Text;
+
+            dashboard.instance.sideNavNameDisplayHolder.Text = lastName + ", " + firstName;
+            dashboard.instance.sideNavDisplayEmail.Text = email;
         }
     }
 }

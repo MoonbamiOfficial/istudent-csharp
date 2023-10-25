@@ -70,20 +70,22 @@
             // 
             // displayStudentName
             // 
+            this.displayStudentName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.displayStudentName.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayStudentName.ForeColor = System.Drawing.Color.White;
-            this.displayStudentName.Location = new System.Drawing.Point(3, 87);
+            this.displayStudentName.Location = new System.Drawing.Point(24, 130);
             this.displayStudentName.Name = "displayStudentName";
-            this.displayStudentName.Size = new System.Drawing.Size(244, 88);
+            this.displayStudentName.Size = new System.Drawing.Size(200, 88);
             this.displayStudentName.TabIndex = 3;
             // 
             // displayStudentEmail
             // 
+            this.displayStudentEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.displayStudentEmail.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayStudentEmail.ForeColor = System.Drawing.Color.White;
-            this.displayStudentEmail.Location = new System.Drawing.Point(3, 175);
+            this.displayStudentEmail.Location = new System.Drawing.Point(24, 242);
             this.displayStudentEmail.Name = "displayStudentEmail";
-            this.displayStudentEmail.Size = new System.Drawing.Size(244, 59);
+            this.displayStudentEmail.Size = new System.Drawing.Size(200, 59);
             this.displayStudentEmail.TabIndex = 4;
             // 
             // sideNavHeader
@@ -99,6 +101,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(177)))), ((int)(((byte)(166)))));
             this.panel2.Location = new System.Drawing.Point(24, 110);
             this.panel2.Name = "panel2";
@@ -311,6 +315,8 @@
             // 
             // panel3
             // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(177)))), ((int)(((byte)(166)))));
             this.panel3.Location = new System.Drawing.Point(24, 639);
             this.panel3.Name = "panel3";
