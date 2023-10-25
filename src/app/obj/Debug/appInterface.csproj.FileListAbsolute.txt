@@ -8,3 +8,4 @@ D:\Moonbami\MoonbamiOfficial\istudent-csharp\src\app\obj\Debug\appInterface.cspr
 D:\Moonbami\MoonbamiOfficial\istudent-csharp\src\app\obj\Debug\appInterface.csproj.CoreCompileInputs.cache
 D:\Moonbami\MoonbamiOfficial\istudent-csharp\src\app\obj\Debug\HICLabActivityOne.exe
 D:\Moonbami\MoonbamiOfficial\istudent-csharp\src\app\obj\Debug\HICLabActivityOne.pdb
+D:\Moonbami\MoonbamiOfficial\istudent-csharp\src\app\obj\Debug\HICLabActivityOne.AddStudentMessage.resources
