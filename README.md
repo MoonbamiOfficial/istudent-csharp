@@ -1,5 +1,5 @@
-> # iStudent
-> A simple application interface that will effectively add student data using **C#**
+# iStudent
+A simple application interface that will effectively add student data using **C#**
 
 ---
 
@@ -10,7 +10,7 @@ git clone https://github.com/MoonbamiOfficial/istudent-csharp.git
 
 ---
 
-### Must Have
+> ### [!IMPORTANT]
 * Visual Studio 2022 (or higher) 
 
 ---
@@ -25,6 +25,6 @@ git clone https://github.com/MoonbamiOfficial/istudent-csharp.git
 
 ---
 
-About iStudent[^1].
+About iStudent[^note]
 
-[^1]: This is an lab activity #1 in my course named **ITEC 80:** **_Human Computer Interaction_**.
+[^note]: This is a lab activity #1 in my course named **ITEC 80:** **_Human Computer Interaction_**.
