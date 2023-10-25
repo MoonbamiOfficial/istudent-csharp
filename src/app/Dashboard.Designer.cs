@@ -307,8 +307,6 @@
             this.addStudentBtn.Text = "+ ADD STUDENT";
             this.addStudentBtn.UseVisualStyleBackColor = false;
             this.addStudentBtn.Click += new System.EventHandler(this.addStudentBtn_Click);
-            this.addStudentBtn.MouseLeave += new System.EventHandler(this.addStudentBtn_MouseLeave);
-            this.addStudentBtn.MouseHover += new System.EventHandler(this.addStudentBtn_MouseHover);
             // 
             // header
             // 

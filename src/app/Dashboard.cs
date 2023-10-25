@@ -117,23 +117,9 @@ namespace app
             }
         }
         // placeholder end //
-
-        // add student btn:hover //
-        private void addStudentBtn_MouseHover(object sender, EventArgs e)
-        {
-            addStudentBtn.BackColor = Color.White;
-            addStudentBtn.ForeColor = Color.Black;
-        }
-        private void addStudentBtn_MouseLeave(object sender, EventArgs e)
-        {
-            addStudentBtn.BackColor = Color.FromArgb(4, 13, 18);
-            addStudentBtn.ForeColor = Color.White;
-        }
-
         private void datePick_ValueChanged(object sender, EventArgs e)
         {
             datePick.CustomFormat = "MMMMMMMMMM dd dddddddddd yyyy";
         }
-        // add student btn:hover //
     }
 }
