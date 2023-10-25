@@ -16,7 +16,6 @@ namespace HICLabActivityOne
         public static AddStudentMessage instance;
         public Label studentFirstNameHolder;
         public Label studentLastNameHolder;
-        public Label studentMiddleNameHolder;
         public Label studentEmailHolder;
         public Label studentBirthHolder;
         public Label studentAgeHolder;
@@ -27,7 +26,6 @@ namespace HICLabActivityOne
             instance = this;
             studentFirstNameHolder = studentFirstName;
             studentLastNameHolder = studentLastName;
-            studentMiddleNameHolder = studentMiddleName;
             studentEmailHolder = studentEmail;
             studentBirthHolder = studentBirth;
             studentAgeHolder = studentAge;
