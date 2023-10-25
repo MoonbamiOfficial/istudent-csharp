@@ -81,12 +81,13 @@
             // displayStudentEmail
             // 
             this.displayStudentEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.displayStudentEmail.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayStudentEmail.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayStudentEmail.ForeColor = System.Drawing.Color.White;
             this.displayStudentEmail.Location = new System.Drawing.Point(24, 242);
             this.displayStudentEmail.Name = "displayStudentEmail";
             this.displayStudentEmail.Size = new System.Drawing.Size(200, 59);
             this.displayStudentEmail.TabIndex = 4;
+            this.displayStudentEmail.Text = "moonbamijamofficial15@gmail.com";
             // 
             // sideNavHeader
             // 
