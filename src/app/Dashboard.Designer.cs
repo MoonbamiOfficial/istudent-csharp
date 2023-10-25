@@ -33,11 +33,11 @@
             this.sideNavHeader = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lastNameLabel = new System.Windows.Forms.Label();
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
             this.sexComboBox = new System.Windows.Forms.ComboBox();
             this.ageTextBox = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.datePick = new System.Windows.Forms.DateTimePicker();
             this.emailTextBox = new System.Windows.Forms.TextBox();
             this.middleNameTextBox = new System.Windows.Forms.TextBox();
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
@@ -48,7 +48,7 @@
             this.emailLabel = new System.Windows.Forms.Label();
             this.middleNameLabel = new System.Windows.Forms.Label();
             this.firstNameLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.header = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -69,11 +69,11 @@
             // displayStudentOne
             // 
             this.displayStudentOne.AutoSize = true;
-            this.displayStudentOne.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayStudentOne.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayStudentOne.ForeColor = System.Drawing.Color.White;
             this.displayStudentOne.Location = new System.Drawing.Point(17, 101);
             this.displayStudentOne.Name = "displayStudentOne";
-            this.displayStudentOne.Size = new System.Drawing.Size(70, 37);
+            this.displayStudentOne.Size = new System.Drawing.Size(44, 23);
             this.displayStudentOne.TabIndex = 3;
             this.displayStudentOne.Text = "label";
             // 
@@ -102,38 +102,38 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(131)))), ((int)(((byte)(116)))));
-            this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.firstNameTextBox);
-            this.panel4.Controls.Add(this.sexComboBox);
-            this.panel4.Controls.Add(this.ageTextBox);
-            this.panel4.Controls.Add(this.dateTimePicker1);
-            this.panel4.Controls.Add(this.emailTextBox);
-            this.panel4.Controls.Add(this.middleNameTextBox);
             this.panel4.Controls.Add(this.lastNameTextBox);
+            this.panel4.Controls.Add(this.middleNameTextBox);
+            this.panel4.Controls.Add(this.emailTextBox);
+            this.panel4.Controls.Add(this.datePick);
+            this.panel4.Controls.Add(this.ageTextBox);
+            this.panel4.Controls.Add(this.sexComboBox);
             this.panel4.Controls.Add(this.addStudentBtn);
             this.panel4.Controls.Add(this.sexLabel);
             this.panel4.Controls.Add(this.ageLabel);
             this.panel4.Controls.Add(this.birthLabel);
             this.panel4.Controls.Add(this.emailLabel);
             this.panel4.Controls.Add(this.middleNameLabel);
+            this.panel4.Controls.Add(this.lastNameLabel);
             this.panel4.Controls.Add(this.firstNameLabel);
             this.panel4.Location = new System.Drawing.Point(300, 110);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(722, 539);
             this.panel4.TabIndex = 14;
             // 
-            // label2
+            // lastNameLabel
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(50, 136);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 25);
-            this.label2.TabIndex = 33;
-            this.label2.Text = "Last Name";
+            this.lastNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lastNameLabel.AutoSize = true;
+            this.lastNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.lastNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lastNameLabel.ForeColor = System.Drawing.Color.White;
+            this.lastNameLabel.Location = new System.Drawing.Point(50, 136);
+            this.lastNameLabel.Name = "lastNameLabel";
+            this.lastNameLabel.Size = new System.Drawing.Size(81, 25);
+            this.lastNameLabel.TabIndex = 33;
+            this.lastNameLabel.Text = "Last Name";
             // 
             // firstNameTextBox
             // 
@@ -158,7 +158,7 @@
             this.sexComboBox.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.sexComboBox.Location = new System.Drawing.Point(274, 239);
+            this.sexComboBox.Location = new System.Drawing.Point(274, 235);
             this.sexComboBox.Name = "sexComboBox";
             this.sexComboBox.Size = new System.Drawing.Size(100, 31);
             this.sexComboBox.TabIndex = 31;
@@ -178,14 +178,14 @@
             this.ageTextBox.Enter += new System.EventHandler(this.ageTextBox_Enter);
             this.ageTextBox.Leave += new System.EventHandler(this.ageTextBox_Leave);
             // 
-            // dateTimePicker1
+            // datePick
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(274, 80);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(254, 27);
-            this.dateTimePicker1.TabIndex = 29;
-            this.dateTimePicker1.Value = new System.DateTime(2023, 10, 24, 0, 0, 0, 0);
+            this.datePick.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.datePick.Location = new System.Drawing.Point(274, 80);
+            this.datePick.Name = "datePick";
+            this.datePick.Size = new System.Drawing.Size(254, 27);
+            this.datePick.TabIndex = 29;
+            this.datePick.Value = new System.DateTime(2023, 10, 24, 0, 0, 0, 0);
             // 
             // emailTextBox
             // 
@@ -321,17 +321,17 @@
             this.firstNameLabel.TabIndex = 10;
             this.firstNameLabel.Text = "First Name";
             // 
-            // label1
+            // header
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Poppins", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(294, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 36);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "ENTER STUDENT DETAILS";
+            this.header.AutoSize = true;
+            this.header.BackColor = System.Drawing.Color.Transparent;
+            this.header.Font = new System.Drawing.Font("Poppins", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.header.ForeColor = System.Drawing.Color.White;
+            this.header.Location = new System.Drawing.Point(294, 71);
+            this.header.Name = "header";
+            this.header.Size = new System.Drawing.Size(242, 36);
+            this.header.TabIndex = 15;
+            this.header.Text = "ENTER STUDENT DETAILS";
             // 
             // dashboard
             // 
@@ -339,7 +339,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(13)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1064, 681);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.header);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -369,17 +369,17 @@
         private System.Windows.Forms.Label birthLabel;
         private System.Windows.Forms.Label ageLabel;
         private System.Windows.Forms.Label sexLabel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label header;
         private System.Windows.Forms.Button addStudentBtn;
         private System.Windows.Forms.ComboBox sexComboBox;
-        private System.Windows.Forms.TextBox ageTextBox;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker datePick;
         private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.TextBox middleNameTextBox;
         private System.Windows.Forms.TextBox lastNameTextBox;
         private System.Windows.Forms.TextBox firstNameTextBox;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lastNameLabel;
         private System.Windows.Forms.Label displayStudentOne;
+        private System.Windows.Forms.TextBox ageTextBox;
     }
 }
 

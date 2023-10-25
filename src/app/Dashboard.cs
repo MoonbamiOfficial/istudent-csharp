@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HICLabActivityOne;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -6,9 +7,12 @@ namespace app
 {
     public partial class dashboard : Form
     {
+        public static dashboard instance;
+
         public dashboard()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void iStudent_Load(object sender, EventArgs e)
@@ -22,8 +26,20 @@ namespace app
             string lastName = lastNameTextBox.Text;
             string middleName = middleNameTextBox.Text;
             string email = emailTextBox.Text;
+            string birth = datePick.Value.ToString();
             string age = ageTextBox.Text;
             string sex = sexComboBox.Text;
+
+            AddStudentMessage message = new AddStudentMessage();
+            message.Show();
+
+            AddStudentMessage.instance.studentFirstNameHolder.Text = firstName;
+            AddStudentMessage.instance.studentLastNameHolder.Text = lastName;
+            AddStudentMessage.instance.studentMiddleNameHolder.Text = middleName;
+            AddStudentMessage.instance.studentEmailHolder.Text = email;
+            AddStudentMessage.instance.studentBirthHolder.Text = birth;
+            AddStudentMessage.instance.studentAgeHolder.Text = age;
+            AddStudentMessage.instance.studentSexHolder.Text = sex;
 
             displayStudentOne.Text = lastName + ", " + firstName + " " + middleName;
         }
