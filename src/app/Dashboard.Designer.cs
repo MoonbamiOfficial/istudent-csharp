@@ -39,14 +39,12 @@
             this.ageTextBox = new System.Windows.Forms.TextBox();
             this.datePick = new System.Windows.Forms.DateTimePicker();
             this.emailTextBox = new System.Windows.Forms.TextBox();
-            this.middleNameTextBox = new System.Windows.Forms.TextBox();
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
             this.addStudentBtn = new System.Windows.Forms.Button();
             this.sexLabel = new System.Windows.Forms.Label();
             this.ageLabel = new System.Windows.Forms.Label();
             this.birthLabel = new System.Windows.Forms.Label();
             this.emailLabel = new System.Windows.Forms.Label();
-            this.middleNameLabel = new System.Windows.Forms.Label();
             this.firstNameLabel = new System.Windows.Forms.Label();
             this.header = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -104,7 +102,6 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(131)))), ((int)(((byte)(116)))));
             this.panel4.Controls.Add(this.firstNameTextBox);
             this.panel4.Controls.Add(this.lastNameTextBox);
-            this.panel4.Controls.Add(this.middleNameTextBox);
             this.panel4.Controls.Add(this.emailTextBox);
             this.panel4.Controls.Add(this.datePick);
             this.panel4.Controls.Add(this.ageTextBox);
@@ -114,7 +111,6 @@
             this.panel4.Controls.Add(this.ageLabel);
             this.panel4.Controls.Add(this.birthLabel);
             this.panel4.Controls.Add(this.emailLabel);
-            this.panel4.Controls.Add(this.middleNameLabel);
             this.panel4.Controls.Add(this.lastNameLabel);
             this.panel4.Controls.Add(this.firstNameLabel);
             this.panel4.Location = new System.Drawing.Point(300, 110);
@@ -191,25 +187,13 @@
             // 
             this.emailTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.emailTextBox.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.emailTextBox.Location = new System.Drawing.Point(50, 316);
+            this.emailTextBox.Location = new System.Drawing.Point(50, 239);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(200, 27);
             this.emailTextBox.TabIndex = 28;
             this.emailTextBox.Text = "Email";
             this.emailTextBox.Enter += new System.EventHandler(this.emailTextBox_Enter);
             this.emailTextBox.Leave += new System.EventHandler(this.emailTextBox_Leave);
-            // 
-            // middleNameTextBox
-            // 
-            this.middleNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.middleNameTextBox.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.middleNameTextBox.Location = new System.Drawing.Point(50, 239);
-            this.middleNameTextBox.Name = "middleNameTextBox";
-            this.middleNameTextBox.Size = new System.Drawing.Size(200, 27);
-            this.middleNameTextBox.TabIndex = 27;
-            this.middleNameTextBox.Text = "Middle Name (Optional)";
-            this.middleNameTextBox.Enter += new System.EventHandler(this.middleNameTextBox_Enter);
-            this.middleNameTextBox.Leave += new System.EventHandler(this.middleNameTextBox_Leave);
             // 
             // lastNameTextBox
             // 
@@ -289,24 +273,11 @@
             this.emailLabel.BackColor = System.Drawing.Color.Transparent;
             this.emailLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.emailLabel.ForeColor = System.Drawing.Color.White;
-            this.emailLabel.Location = new System.Drawing.Point(50, 288);
+            this.emailLabel.Location = new System.Drawing.Point(50, 211);
             this.emailLabel.Name = "emailLabel";
             this.emailLabel.Size = new System.Drawing.Size(47, 25);
             this.emailLabel.TabIndex = 13;
             this.emailLabel.Text = "Email";
-            // 
-            // middleNameLabel
-            // 
-            this.middleNameLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.middleNameLabel.AutoSize = true;
-            this.middleNameLabel.BackColor = System.Drawing.Color.Transparent;
-            this.middleNameLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.middleNameLabel.ForeColor = System.Drawing.Color.White;
-            this.middleNameLabel.Location = new System.Drawing.Point(50, 211);
-            this.middleNameLabel.Name = "middleNameLabel";
-            this.middleNameLabel.Size = new System.Drawing.Size(167, 25);
-            this.middleNameLabel.TabIndex = 12;
-            this.middleNameLabel.Text = "Middle Name (Optional)";
             // 
             // firstNameLabel
             // 
@@ -364,7 +335,6 @@
         private System.Windows.Forms.Label sideNavHeader;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label emailLabel;
-        private System.Windows.Forms.Label middleNameLabel;
         private System.Windows.Forms.Label firstNameLabel;
         private System.Windows.Forms.Label birthLabel;
         private System.Windows.Forms.Label ageLabel;
@@ -374,7 +344,6 @@
         private System.Windows.Forms.ComboBox sexComboBox;
         private System.Windows.Forms.DateTimePicker datePick;
         private System.Windows.Forms.TextBox emailTextBox;
-        private System.Windows.Forms.TextBox middleNameTextBox;
         private System.Windows.Forms.TextBox lastNameTextBox;
         private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.Label lastNameLabel;
