@@ -86,7 +86,7 @@ namespace app
         }
         private void emailTextBox_Enter(object sender, EventArgs e)
         {
-            if (emailTextBox.Text == "Email")
+            if (emailTextBox.Text == "student@gmail.com")
             {
                 emailTextBox.Text = "";
                 emailTextBox.ForeColor = Color.Black;
@@ -96,7 +96,7 @@ namespace app
         {
             if (emailTextBox.Text == "")
             {
-                emailTextBox.Text = "Email";
+                emailTextBox.Text = "student@gmail.com";
                 emailTextBox.ForeColor = Color.LightGray;
             }
         }
