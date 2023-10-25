@@ -49,9 +49,9 @@
             this.borderPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.borderPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(61)))), ((int)(((byte)(61)))));
-            this.borderPanel.Location = new System.Drawing.Point(-3, 327);
+            this.borderPanel.Location = new System.Drawing.Point(-3, 409);
             this.borderPanel.Name = "borderPanel";
-            this.borderPanel.Size = new System.Drawing.Size(510, 36);
+            this.borderPanel.Size = new System.Drawing.Size(712, 36);
             this.borderPanel.TabIndex = 0;
             // 
             // confirmBtn
@@ -61,7 +61,7 @@
             this.confirmBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.confirmBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.confirmBtn.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.confirmBtn.Location = new System.Drawing.Point(374, 271);
+            this.confirmBtn.Location = new System.Drawing.Point(531, 310);
             this.confirmBtn.Name = "confirmBtn";
             this.confirmBtn.Size = new System.Drawing.Size(116, 50);
             this.confirmBtn.TabIndex = 1;
@@ -82,12 +82,11 @@
             // 
             // studentFirstName
             // 
-            this.studentFirstName.AutoSize = true;
             this.studentFirstName.BackColor = System.Drawing.Color.Transparent;
             this.studentFirstName.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentFirstName.Location = new System.Drawing.Point(181, 33);
             this.studentFirstName.Name = "studentFirstName";
-            this.studentFirstName.Size = new System.Drawing.Size(102, 37);
+            this.studentFirstName.Size = new System.Drawing.Size(511, 37);
             this.studentFirstName.TabIndex = 3;
             this.studentFirstName.Text = "fasfasdf";
             // 
@@ -104,12 +103,11 @@
             // 
             // studentLastName
             // 
-            this.studentLastName.AutoSize = true;
             this.studentLastName.BackColor = System.Drawing.Color.Transparent;
             this.studentLastName.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentLastName.Location = new System.Drawing.Point(181, 70);
             this.studentLastName.Name = "studentLastName";
-            this.studentLastName.Size = new System.Drawing.Size(70, 37);
+            this.studentLastName.Size = new System.Drawing.Size(511, 37);
             this.studentLastName.TabIndex = 5;
             this.studentLastName.Text = "afdsf";
             // 
@@ -126,12 +124,11 @@
             // 
             // studentEmail
             // 
-            this.studentEmail.AutoSize = true;
             this.studentEmail.BackColor = System.Drawing.Color.Transparent;
             this.studentEmail.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentEmail.Location = new System.Drawing.Point(181, 107);
             this.studentEmail.Name = "studentEmail";
-            this.studentEmail.Size = new System.Drawing.Size(84, 37);
+            this.studentEmail.Size = new System.Drawing.Size(511, 37);
             this.studentEmail.TabIndex = 9;
             this.studentEmail.Text = "afdsaf";
             // 
@@ -170,34 +167,31 @@
             // 
             // studentBirth
             // 
-            this.studentBirth.AutoSize = true;
             this.studentBirth.BackColor = System.Drawing.Color.Transparent;
             this.studentBirth.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentBirth.Location = new System.Drawing.Point(181, 144);
             this.studentBirth.Name = "studentBirth";
-            this.studentBirth.Size = new System.Drawing.Size(102, 37);
+            this.studentBirth.Size = new System.Drawing.Size(511, 37);
             this.studentBirth.TabIndex = 13;
             this.studentBirth.Text = "asdfasd";
             // 
             // studentAge
             // 
-            this.studentAge.AutoSize = true;
             this.studentAge.BackColor = System.Drawing.Color.Transparent;
             this.studentAge.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentAge.Location = new System.Drawing.Point(181, 181);
             this.studentAge.Name = "studentAge";
-            this.studentAge.Size = new System.Drawing.Size(95, 37);
+            this.studentAge.Size = new System.Drawing.Size(511, 37);
             this.studentAge.TabIndex = 14;
             this.studentAge.Text = "asfdasf";
             // 
             // studentSex
             // 
-            this.studentSex.AutoSize = true;
             this.studentSex.BackColor = System.Drawing.Color.Transparent;
             this.studentSex.Font = new System.Drawing.Font("Poppins", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentSex.Location = new System.Drawing.Point(181, 218);
             this.studentSex.Name = "studentSex";
-            this.studentSex.Size = new System.Drawing.Size(106, 37);
+            this.studentSex.Size = new System.Drawing.Size(511, 37);
             this.studentSex.TabIndex = 15;
             this.studentSex.Text = "asfasdfs";
             // 
@@ -206,7 +200,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(13)))), ((int)(((byte)(18)))));
-            this.ClientSize = new System.Drawing.Size(502, 359);
+            this.ClientSize = new System.Drawing.Size(704, 441);
             this.Controls.Add(this.studentSex);
             this.Controls.Add(this.sexLabel);
             this.Controls.Add(this.studentAge);
